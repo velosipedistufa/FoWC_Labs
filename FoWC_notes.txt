@@ -1,0 +1,43 @@
+Lec0
+compression of physical layer (voip, headers)
+random coding, shanon reachable, huge compute. euclidian distance, matrices. Random coding, one lab for it.
+how complex exponent multiplied by dac? Analog multiplication?
+ofdm is way better than cdma
+Eb/N0 - universal parameter to compare communication systems, min - -1.59, no better result can be achieved
+Shannon limit, snr or Es/N0, cutoff at some point to minus infinity, FBL achievability behavior. Convergence happens quickly. 
+Lec1
+Рассказывали
+Shanon, random codebook, generated gaussian, then normalized, to not violate power restriction. In large, hisquare distribution does it automatically.
+Why are real and imag components independent with gray coding?
+Imag and Real, how they are transmitted physically? 
+why gaussian code is good for transmission, but bad for hardware?
+Split between modulation and coding
+polar codes, sparse regression codes.
+waterfilling power allocation
+alamouti codes.
+Lec2
+Codebook for channel estimation
+	lab 2:	1. generate Li independaant doppler processes with proper fd
+		2. frequency grid [-10 MHz... 10 MHz]
+		3. calculate Fourier Transform form of instant. h(t): H(w) = sum (g_i h_i(t) e^-jwtau_i) for all time slices and we will get frequncy response
+Lec3
+diversity gain
+viterbi algorithm
+pseudorandom sequences
+From DSSS to OFDM
+OFDM
+production of 2 gauusian = chisquared
+DFT spread modulation, helps with reducing peak to average power
+delay doppler is based on ofdm
+	HW:
+		1. 
+Lec4
+2 qpsk gives 1 orthogonal qam
+channel use = символ, один символ = one channel use
+number of physical propagation paths = rank of the matrix in mimo
+it's not a matching filter, it's propagation properties, slide 15/37
+shift to mm waves is good, more antennas for mimo in a form factor of a smartphone, ultramassive mimo
+rayleigh is too optimistic for mimo, it assumes to much scattering
+SINR, interference as a noise
+Lec5
+3
